@@ -1,4 +1,4 @@
-const mapDigit = (n) => n * 2;
+const mapDigit = (n) => n / 2;
 const digit = [4, 5, 6, 7];
 const output = digit.map(mapDigit);
 console.log(output);
