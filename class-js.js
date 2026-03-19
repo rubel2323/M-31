@@ -24,3 +24,5 @@ class Animal {
 const myDomestic = new Animal("Dog", "Ghew Ghew");
 const property = myDomestic.makingSound();
 console.log(property);
+console.warn(property);
+console.error(property);
